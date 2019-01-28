@@ -1,0 +1,40 @@
+html,body{
+  height: 100%;
+  font-family: sans-serif;
+  background-color: grey;
+
+}
+.flex-container{
+  display: flex;
+}
+.flex-column{
+  flex-direction: column;
+}
+.board-container{
+  height: 100%;
+  width: 100%;
+}
+.square{
+  height: 200px;
+  width: 200px;
+  border: solid #32a1ce;
+  font-size: 30px;
+}
+#title{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+.board{
+  width: 618px;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+.square:hover{
+  background-color: red;
+}
